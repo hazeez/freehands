@@ -1,3 +1,140 @@
-body{
-	padding-top: 50px;
+$highlightColor: #f90; //bright Orange
+$textColor: #222; // dark grey
+$iconColor: #2a6496; // sea blue
+$backgroundColor: #e9e9e9; // light grey
+$additionalColor: #bcbcbc; //medium grey
+
+body
+{
+    padding-top: 50px;
 }
+
+nav
+{
+	.navbar-header {
+		a {
+			font-family: 'OSWALD', Arial, sans-serif;
+	        letter-spacing: 1px;
+	        text-transform: uppercase;
+	        color: $highlightColor;		
+		}
+	}
+    ul
+    {
+        font-family: 'OSWALD', Arial, sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+	
+    .navbar-collapse {
+	    .navbar-nav {
+	     li {
+	       a {
+	        color: #ffffff;
+	        &:hover,  &:focus {
+	          color: $highlightColor; }
+	      }
+		}
+		}
+	}
+}
+
+
+.usp
+{
+    margin-top: -25px;
+    padding-top: 15px;
+    background-color: $textColor;
+    span
+    {
+        font-size: 2em;
+        margin: none;
+        margin-top: -5px;
+        text-align: center;
+        color: $highlightColor;
+    }
+    p
+    {
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: .9em;
+		margin:none;
+        margin-top: -5px;
+        color: $backgroundColor;
+        line-height: 20px;
+    }
+}
+.well
+{
+    border: none;
+    margin:none;
+    .brand-and-tagline
+    {
+        font-family: 'Open Sans', Arial, sans-serif;
+        margin-bottom: 20px;
+        color: $textColor;
+        .brand-name {
+        	// text-transform: uppercase;
+        	font-size:2em;
+        	font-weight: bold;
+        }
+        .tag-line{
+        	font-weight: bold;
+        }
+    }
+}
+.highlights{
+	margin: none;
+	margin-top: -20px;
+	.panel{
+		.panel-body {
+		.row {
+			background-color: $highlightColor;
+			margin-top: -15px;
+			margin-bottom: 15px;
+		}
+		h4{
+			font-family: "OSWALD", sans-serif, Arial;
+			letter-spacing: 1px;
+			font-size: 1.2em;
+			color: $textColor;
+			padding-left: 20px;
+		}
+		p {
+			font-family: "Open Sans", Arial, sans-serif;
+			color: $textColor;
+			text-align: left;
+			font-size:0.9em;
+			padding-left: 20px;
+		}
+		}
+	}
+}
+.footer {
+	.row {
+		margin-top: -20px;
+		h3 {
+			font-family: "OSWALD", sans-serif, Arial;
+			font-size: 1.2em;
+			color: $textColor;
+		}
+		p {
+			font-family: "Open Sans", Arial, sans-serif;
+			color: $textColor;
+			text-align: left;
+			font-size:0.9em;
+			letter-spacing: 1px;
+		}
+		span {
+			font-size: 1.7em;
+	        color: $iconColor;
+	        padding-right: 20px;
+	        padding-top: 5px;
+		}
+	}
+}
+.fa-facebook, .fa-twitter, .fa-google-plus {
+		padding-right: 30px;
+		padding-top: 10px;
+		color: $iconColor;
+	}
