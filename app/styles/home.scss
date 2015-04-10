@@ -39,7 +39,29 @@ nav
 		}
 	}
 }
-
+.container {
+	#gallery-carousel {
+		margin-bottom: 25px;
+		margin-left: 55px;
+	}
+	.carousel-control {
+		width: 70px;
+		height: 175px;
+	}
+	.left {
+		background-image: none;
+		color: $textColor;
+		margin-left: -70px;
+		margin-top:auto;
+		// padding-left: -20px;
+	}
+	.right {
+		color: $textColor;
+		background-image: none;
+		margin-top:auto;
+		margin-right: -15px;
+	}
+}
 
 .usp
 {
@@ -73,6 +95,7 @@ nav
         font-family: 'Open Sans', Arial, sans-serif;
         margin-bottom: 20px;
         color: $textColor;
+        .backgroundColor: $backgroundColor;
         .brand-name {
         	// text-transform: uppercase;
         	font-size:2em;
@@ -123,7 +146,7 @@ nav
 			color: $textColor;
 			text-align: left;
 			font-size:0.9em;
-			letter-spacing: 1px;
+			// letter-spacing: 1px;
 		}
 		span {
 			font-size: 1.7em;
@@ -138,3 +161,13 @@ nav
 		padding-top: 10px;
 		color: $iconColor;
 	}
+.fa-envelope, .fa-phone-square {
+		padding-right: 15px;
+		color: $iconColor;
+}
+.fa-envelope {
+	padding-right: 13px;
+}
+.copyright {
+	margin-left: 15px;
+}
