@@ -86,12 +86,13 @@ nav
 {
     border: none;
     margin:none;
+    background-image: url("/images/patterns/pattern-89ds.png");
     .brand-and-tagline
     {
         font-family: 'Open Sans', Arial, sans-serif;
         margin-bottom: 20px;
         color: $textColor;
-        .backgroundColor: $backgroundColor;
+        // .backgroundColor: $backgroundColor;
         .brand-name {
         	// text-transform: uppercase;
         	font-size:2em;
