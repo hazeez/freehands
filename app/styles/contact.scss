@@ -1,0 +1,49 @@
+@import 'main';
+@import 'home';
+body {
+    padding-top: 50px;
+}
+
+li {
+    .contact-menu {
+        background-color: $highlightColor;
+    }
+}
+
+.container {
+    .contact {
+        background-image: url("/images/patterns/pattern-89ds.png");
+        background-repeat: repeat-x;
+        border-bottom: 2px solid $textColor;
+    }
+    .page-title {
+        font-family: "OSWALD", Arial, sans-serif;
+        text-transform: uppercase;
+        color: $textColor;
+    }
+    .call-us-now {
+        h3 {
+            color: $textColor;
+            font-family: "Oswald", Arial, sans-serif;
+            font-size: 1.5em;
+        }
+        .fa-map-marker {
+            padding-right: 10px;
+            color: $textColor;
+            font-size: 1.2em;
+        }
+    }
+}
+/* for map section*/
+  .container {
+  #map {
+    width: auto;
+    height: 400px;
+    margin-top: 30px;
+    border: 2px solid $additionalColor;    
+  }
+  }
+
+ .footer {
+ 	margin-top: 20px;
+ }
