@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
 html {
@@ -7525,7 +7525,7 @@ li .contact-menu {
   background-color: #f90; }
 
 .container .contact {
-  background-image: url("/images/patterns/pattern-89ds.png");
+  background-image: url("/images/patterns/a58bc1ea.pattern-89ds.png")
   background-repeat: repeat-x;
   border-bottom: 2px solid #222; }
 .container .page-title {
